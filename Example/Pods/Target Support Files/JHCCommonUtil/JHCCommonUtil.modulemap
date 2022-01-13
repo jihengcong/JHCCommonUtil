@@ -1,0 +1,6 @@
+framework module JHCCommonUtil {
+  umbrella header "JHCCommonUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

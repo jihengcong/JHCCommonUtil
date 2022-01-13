@@ -7,6 +7,8 @@
 //
 
 #import "JHCViewController.h"
+#import "JHCCommonUtil.h"
+
 
 @interface JHCViewController ()
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"测试: %@", [JHCCommonUtil getTimestampSince1970]);
 }
 
 - (void)didReceiveMemoryWarning

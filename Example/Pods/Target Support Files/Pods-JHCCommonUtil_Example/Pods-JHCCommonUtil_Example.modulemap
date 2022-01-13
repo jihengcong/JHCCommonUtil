@@ -1,0 +1,6 @@
+framework module Pods_JHCCommonUtil_Example {
+  umbrella header "Pods-JHCCommonUtil_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
